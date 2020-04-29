@@ -8,7 +8,6 @@ class Dog
   
   def initialize(name)
     save(name)
-    
   end
   
   def save(name)
