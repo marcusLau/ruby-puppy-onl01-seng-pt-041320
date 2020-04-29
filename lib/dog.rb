@@ -16,17 +16,17 @@ class Dog
   end
     
   
-  def all 
+  def @@all 
     @@all
   end
   
   def print_all
-    @all.each do |dog|
+    @@all.each do |dog|
       puts dog.name
     end
   end
   
-  def clear_all 
+  def @@clear_all 
     @@all.clear
   end
   
