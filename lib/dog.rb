@@ -4,6 +4,8 @@ class Dog
   
   @@all = []
   
+  attr_
+  
   def initialize(name)
     
 end
