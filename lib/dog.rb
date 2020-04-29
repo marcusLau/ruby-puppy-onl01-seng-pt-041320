@@ -7,11 +7,11 @@ class Dog
   attr_accessor :name
   
   def initialize(name)
-    save(name)
+    @name = name
+    save()
   end
   
-  def save(name)
-    @name = name
+  def save()
     @@all << self
   end
     
